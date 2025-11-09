@@ -1,0 +1,23 @@
+name: mbb-cc66q-1-assignment-2
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab>=4
+  - ipykernel
+  - numpy>=1.26
+  - pandas>=2.0
+  - matplotlib>=3.8
+  - scikit-learn>=1.4
+  - nltk>=3.8
+  - gensim>=4.3
+  - tqdm>=4.66
+  - pip:
+      - transformers>=4.44
+      - datasets>=2.19
+      - evaluate>=0.4
+      - accelerate>=0.33
+      - sentencepiece>=0.2
+      - torch>=2.2
