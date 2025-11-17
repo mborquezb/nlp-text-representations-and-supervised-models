@@ -18,3 +18,4 @@ __pycache__/
 *.ckpt
 *.h5
 *.parquet
+secrets.yml
